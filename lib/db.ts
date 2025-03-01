@@ -6,6 +6,7 @@ if(!MONGODB_URI){
     throw new Error("Please define mongodb uri in db");
 }
 
+
 let cached = global.mongoose;
 
 if(!cached){
